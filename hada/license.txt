@@ -1,0 +1,11 @@
+Model Information:
+* title:	hada
+* source:	https://sketchfab.com/3d-models/hada-eb150abf71f342fdb0247d6af9f58efe
+* author:	kidestsuarez201 (https://sketchfab.com/kidestsuarez201)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "hada" (https://sketchfab.com/3d-models/hada-eb150abf71f342fdb0247d6af9f58efe) by kidestsuarez201 (https://sketchfab.com/kidestsuarez201) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
