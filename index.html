@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>posters</title>
+    <title>Water Fairy</title>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script>
+
+<!-- COVER IMAGE HIC ET NUNC -->
+<meta property="og:image" content="marzo/stillsfairy/un.jpg" />
+
 </head>
+
+
 <body>
-    <a-scene>
+    <!-- PANTALLA DE ESPERA -->
+<a-scene  
+loading-screen="dotsColor: #60e3f7; backgroundColor: #f5baf7">
+
+
        <!--  <a-entity environment="preset:  poison;  groundColor:  #ff85d3;  groundColor2:  #22fde8;  dressingColor:  #0ffbc2"></a-entity> -->
         <a-sky radius="200" theta-length="110" class="environment" material="shader: gradientshader; topColor: #ff30d1; bottomColor: #60fafc; opacity: 0.35"></a-sky>
         <a-entity environment="preset:  poison;  groundColor:  #bbc3ff;  groundColor2:  #9ed9fd;  dressingColor:  #2afbd9;  active:  true;  groundTexture:  checkerboard;  dressing:  mushrooms;  dressingAmount:  12;  dressingScale:  3;  dressingVariance:  [object Object];  dressingUniformScale:  false"></a-entity>
@@ -20,6 +30,11 @@
        <!--  <a-sound src="src: url(click.mp3)" autoplay="true" position="0 2 5"></a-sound>
    -->
         
+<!-- POSICION CAMARA -->
+<a-camera position="0 4 28"></a-camera>
+
+
+
         <a-assets>
             <a-asset-item id="alas" src="./assets/alas.gltf"></a-asset-item>
            <!--  <a-asset-item id="hadados" src="./assets/hadados.png"></a-asset-item>  -->
@@ -60,8 +75,9 @@
                   scale=".5 .5 .5"  
                   rotation="0.86 3.26 0"></a-entity>
 
+                  <a-entity light="intensity: 0.27; castShadow: true" position="-0.5 1 1"></a-entity>
                
-   <!--      <a-light type="spot"  color= "ff79d2" angle= "20" intensity= "7"></a-light> -->
+       <!--  <a-light type="spot"  color= "ff79d2" angle= "20" intensity= "7"></a-light> -->
         
         <a-light type=  "spot" 
                 position="1.46384 7.15834 18.62446"
@@ -95,7 +111,6 @@
                 groundColor= "ffb8f6"></a-light>
 
               
-                
     </a-scene>
 </body>
 </html>
